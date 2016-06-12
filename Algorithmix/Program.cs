@@ -10,7 +10,21 @@ namespace Algorithmix
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DynamicProg.giveMeMagicIndex(new int[] { -2, -1, 1, 2, 4, 8, 18 }, 0));
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            Console.WriteLine(DynamicProg.BruteCountCombinaisonStep(30));
+            watch.Stop();
+            var elapsedMs = watch.ElapsedTicks;
+            Console.WriteLine("Time 1 : " + elapsedMs);
+            
+            
+            
+            var watch2 = System.Diagnostics.Stopwatch.StartNew();
+            Console.WriteLine(DynamicProg.callCountComb(30));
+            watch2.Stop();
+            var elapsedMs2 = watch2.ElapsedTicks;
+
+            Console.WriteLine("Time 2 : " + elapsedMs2);
+            
         }
     }
 }
