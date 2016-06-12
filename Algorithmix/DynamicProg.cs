@@ -12,6 +12,7 @@ namespace Algorithmix
         Un enfant cherche à monter un escalier de N marches, à chaque pas il peut monter 1, 2 ou 3 marche en d'un coup
         combien de combinaison sont possibles pour arriver en haut ?
         Etape 1 : Brute force algo
+        Etape 2 : Algorithme approche top-down 3000 fois plus rapide
         */
 
         // Approche top-down
@@ -46,7 +47,7 @@ namespace Algorithmix
             return countCombinationStep(nStep, tab);
         }
         
-        // Etape 1
+        // Etape 1 : bruteforce
         public static int BruteCountCombinaisonStep(int n)
         {
             if (n < 0) return 0;
@@ -54,6 +55,7 @@ namespace Algorithmix
 
             return BruteCountCombinaisonStep(n - 1) + BruteCountCombinaisonStep(n - 2) + BruteCountCombinaisonStep(n - 3);
         }
+
 
         /*
         Un tableau de n entier distinct trié donnant un accès à un indice A[1 ... n-1], il existe un indice magique tel que A[i] = i.
