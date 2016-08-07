@@ -3,3 +3,4 @@ F:\DEV-PERSO\Algorithmix\Algorithmix\bin\Debug\Algorithmix.exe
 F:\DEV-PERSO\Algorithmix\Algorithmix\bin\Debug\Algorithmix.pdb
 F:\DEV-PERSO\Algorithmix\Algorithmix\obj\Debug\Algorithmix.exe
 F:\DEV-PERSO\Algorithmix\Algorithmix\obj\Debug\Algorithmix.pdb
+F:\DEV-PERSO\Algorithmix\Algorithmix\obj\Debug\Algorithmix.csprojResolveAssemblyReference.cache
