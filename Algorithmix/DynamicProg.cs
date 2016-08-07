@@ -57,6 +57,8 @@ namespace Algorithmix
         }
 
 
+
+
         /*
         Un tableau de n entier distinct trié donnant un accès à un indice A[1 ... n-1], il existe un indice magique tel que A[i] = i.
         Trouver si il existe l'indice magique avec un algorithme.
@@ -69,5 +71,28 @@ namespace Algorithmix
             I++;
             return giveMeMagicIndex(array, I = I++);
         }
+
+        /*
+         * Afficher toutes les sous chaines d'une string en entrée (str)
+         * 
+         */
+        public static void giveAllSubStr(String str, int it)
+        {
+            if (it == str.Length -1) return;
+            else
+            {
+                string strTempo = "";
+                for (int i = it; i != str.Length; ++i)
+                {
+                    strTempo += str[i];
+                    Console.WriteLine(strTempo);
+                    
+
+                }
+                giveAllSubStr(strTempo, it++);
+            }
+
+        }  
+         
     }
 }
