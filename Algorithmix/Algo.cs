@@ -62,7 +62,7 @@ namespace Algorithmix
 
                     if (tab[i] == (tab[k] + tab[j]))
                     {
-                        Console.WriteLine("Finded : " + tab[i] + " : " + tab[k] + " : " + tab[j]);
+                        Console.WriteLine("Found : " + tab[i] + " : " + tab[k] + " : " + tab[j]);
                     }
 
                     if (tab[k] > tab[i]) j--;
