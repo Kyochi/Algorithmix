@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithmix.Tri;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,9 @@ namespace Algorithmix
     {
         static void Main(string[] args)
         {
-
-            Algo.threeSumV1(new int[] { -10, -25, 0, 1, 2 });
+            //testMergeSort();
+            testQuickSort();
+            //Algo.threeSumV1(new int[] { -10, -25, 0, 1, 2 });
         }
 
         /*
@@ -33,6 +35,30 @@ namespace Algorithmix
             var elapsedMs2 = watch2.ElapsedTicks;
 
             Console.WriteLine("Time 2 : " + elapsedMs2);
+        }
+
+        /*
+         * Test merge sort
+         */
+        public static void testMergeSort()
+        {
+            MergeSort ms = new MergeSort();
+            int[] array = new int[10] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            int[] tohelp = new int[array.Length];
+            ms.mergeSort(array, tohelp, 0, array.Length -1 );
+            Console.WriteLine(string.Join(",", array));
+        }
+
+        /*
+         * Test quick sort
+         */
+        public static void testQuickSort()
+        {
+            QuickSort qs = new QuickSort();
+            int[] array = new int[10] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            int[] array2 = new int[5] { 5, 1, 9, 6, 2 };
+            qs.quickSort(array2, 0, array2.Length - 1);
+            Console.WriteLine(string.Join(",", array2));
         }
     }
 }
