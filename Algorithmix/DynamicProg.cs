@@ -47,7 +47,7 @@ namespace Algorithmix
             return countCombinationStep(nStep, tab);
         }
         
-        // Etape 1 : ***REMOVED***
+        // Etape 1 : bruteforce
         public static int BruteCountCombinaisonStep(int n)
         {
             if (n < 0) return 0;
@@ -60,7 +60,7 @@ namespace Algorithmix
         /*
         Un tableau de n entier distinct trié donnant un accès à un indice A[1 ... n-1], il existe un indice magique tel que A[i] = i.
         Trouver si il existe l'indice magique avec un algorithme.
-        Etape 1 : ***REMOVED*** algo
+        Etape 1 : bruteforce algo
          */
         public static int giveMeMagicIndex(int[] array, int I)
         {
