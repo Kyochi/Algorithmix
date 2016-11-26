@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array\Algo.cs" />
     <Compile Include="Array\MergeIntervals.cs" />
     <Compile Include="Array\RowPascalTriangle.cs" />
+    <Compile Include="Array\ThreeSum.cs" />
     <Compile Include="Array\WaveArray.cs" />
     <Compile Include="DynamicProg\DynamicProg.cs" />
     <Compile Include="Math\PrimeSum.cs" />
