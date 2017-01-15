@@ -11,11 +11,10 @@ namespace Algorithmix
         /*
         Un enfant cherche à monter un escalier de N marches, à chaque pas il peut monter 1, 2 ou 3 marche en d'un coup
         combien de combinaison sont possibles pour arriver en haut ?
-        Etape 1 : Brute force algo
-        Etape 2 : Algorithme approche top-down 3000 fois plus rapide
+        step 1 : Brute force 
+        step 2 : DP algorithm memoization
         */
 
-        // Approche top-down
         public static Int64 countCombinationStep(int nbMarche, Int64[] memoTab)
         {
             if (nbMarche < 0)
@@ -47,7 +46,7 @@ namespace Algorithmix
             return countCombinationStep(nStep, tab);
         }
         
-        // Etape 1 : bruteforce
+        // step 1 : bruteforce
         public static int BruteCountCombinaisonStep(int n)
         {
             if (n < 0) return 0;
