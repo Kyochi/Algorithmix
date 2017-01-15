@@ -44,11 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\MergeIntervals.cs" />
-    <Compile Include="Array\RowPascalTriangle.cs" />
-    <Compile Include="Array\ThreeSum.cs" />
+    <Compile Include="Math\RowPascalTriangle.cs" />
+    <Compile Include="Tri\ThreeSum.cs" />
     <Compile Include="Array\WaveArray.cs" />
     <Compile Include="DynamicProg\DynamicProg.cs" />
+    <Compile Include="LinkedList\Duplicate.cs" />
+    <Compile Include="LinkedList\ListNode.cs" />
+    <Compile Include="LinkedList\Reverse.cs" />
     <Compile Include="Math\PrimeSum.cs" />
+    <Compile Include="Pointers\IntersSortedArrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tri\MergeSort.cs" />
