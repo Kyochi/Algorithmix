@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\MergeIntervals.cs" />
+    <Compile Include="LinkedList\InsertionSortList.cs" />
     <Compile Include="Math\RowPascalTriangle.cs" />
+    <Compile Include="StacksQueues\SmallerElement.cs" />
     <Compile Include="Tri\ThreeSum.cs" />
     <Compile Include="Array\WaveArray.cs" />
     <Compile Include="DynamicProg\DynamicProg.cs" />
