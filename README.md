@@ -1,3 +1,5 @@
 # Algorithmix 
 
-Algorithms , Data Structures...
+- Problem solving
+- Algorithms
+- Data Structures...
